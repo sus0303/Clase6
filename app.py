@@ -10,3 +10,14 @@ st.image(image, caption='Interfaces multimodales')
                    
 texto = st.text_input('escribe algo','este es mi texto')
 st.write('el texto escrito es', texto)
+
+st.subheader("Ahora usemos 2 columnas")
+
+col1, col2 = st.columnas(2)
+
+with col1
+  st.subheader("Columna 1")
+  st.write("abc?")
+  resp = st.checkbox("123")
+  if resp:
+    st.write("Muy bien")
