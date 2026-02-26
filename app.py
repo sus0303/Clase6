@@ -15,7 +15,7 @@ st.subheader("Ahora usemos 2 columnas")
 
 col1, col2 = st.columnas(2)
 
-with col1
+with col1:
   st.subheader("Columna 1")
   st.write("abc?")
   resp = st.checkbox("123")
