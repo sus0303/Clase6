@@ -21,3 +21,13 @@ with col1:
   resp = st.checkbox("123")
   if resp:
     st.write("Muy bien")
+
+with col2:
+  st.subheader("Columna 2")
+  modo = st.radio("Cual es tu fruta favorita", ('Fresa', 'Mango', 'Kiwi'))
+  if modo == 'Fresa':
+    st.write("Muy rica")
+  if modo == 'Mango':
+    st.write("Muy sabroso")
+  if modo == 'Kiwi':
+    st.write("Refrescante")
