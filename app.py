@@ -31,3 +31,9 @@ with col2:
     st.write("Muy sabroso")
   if modo == 'Kiwi':
     st.write("Refrescante")
+
+st.subheader("Botonesss")
+if st.button('Presiona botòn'):
+  st.write('Gracias, muy amable')
+else:
+  st.write('No has presionadooo')
